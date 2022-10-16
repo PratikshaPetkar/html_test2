@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Anton", sans-serif;
+  /* margin: 30px 50px; */
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 10px 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.list li{
+    margin: 10px 30px;
+   
+}
+
+.list{
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+color: black;
+}
+.columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-content{
+    background-color: lavenderblush;
+    height: 40rem;
+    width: 40rem;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+ 
+}
+
+.hero-content h1{
+    padding: 10px 30px;
+    letter-spacing: 5px;
+    margin: 10px 20px;
+}
+
+.hero-content p{
+    padding: 10px 30px;
+   
+    margin: 10px 20px;
+}
+
+
+.hero-img{
+    height: 40rem;
+    width: 40rem;
+
+}
+.btn{
+    padding: 20px 30px;
+    margin: 10px 20px;
+    background-color: black;
+    color: white;
+
+}
